@@ -1,0 +1,272 @@
+body {
+  font-weight: 400;
+  font-family: "poppins";
+  color: #747474;
+}
+.navbar {
+    display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  position: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+  top: 0;
+  background: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+        text-align: -webkit-match-parent;
+
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(173, 169, 169);
+  font-weight: bold;
+  padding: 0.6em;
+}
+a:hover {
+  color: rgba(55, 178, 235, 0.925);
+}
+span {
+  color: rgba(55, 178, 235, 0.925);
+}
+.dropdown {
+  position: relative;
+}
+.dropdownlist {
+  display: none;
+  padding-top: 15px;
+  position: absolute;
+  background: white;
+  /* position: absolute; */
+}
+.dropdown:hover .dropdownlist {
+  display: block;
+}
+.dropdownlist a {
+  color: rgb(0, 0, 0);
+  font-family: "poppins";
+  font-weight: 200;
+  padding: 2.4em;
+}
+.dropdownlist a:hover {
+  color: rgb(50, 194, 158);
+}
+main {
+  margin-top: 7%;
+}
+.healthcare {
+  text-align: center;
+  padding-top: 1.8em;
+}
+h1 {
+  color: rgb(50, 194, 158);
+  font-family: "work sans";
+  margin: 0.8em 0.1em;
+  font-weight: 300;
+  font-size: 2em;
+}
+.container {
+  display: flex;
+  margin: 20px 180px;
+  line-height: 1.8;
+}
+p {
+  margin: 1.5em 0.7em;
+}
+/* ------------------------------- */
+.forpdc {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 10%;
+}
+#patients {
+  background-color: #00ccb1;
+}
+#doctors {
+  background-color: #3d83df;
+}
+#clinics {
+  background-color: #1b2734;
+}
+.service {
+  width: 350px;
+  padding: 0.8em;
+  border-radius: 0.6em;
+  margin: 1em;
+}
+.para {
+  color: white;
+  font-family: "work sans";
+  font-weight: 200;
+  font-size: 1.6em;
+}
+.for {
+  color: white;
+}
+.taswira {
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+.countries {
+  border: 0;
+  outline: 0;
+  background: none;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+option {
+  color: rgb(19, 18, 18);
+}
+#global_company {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 9em;
+  margin-top: 3em;
+}
+#svg {
+  display: flex;
+  padding: 1.4em;
+
+  flex-wrap: wrap;
+
+  fill: rgb(179, 176, 176);
+}
+#svg li svg:hover {
+  fill: rgb(50, 194, 158);
+}
+#svg li img {
+  filter: grayscale(1);
+}
+#svg li img:hover {
+  filter: grayscale(0);
+}
+#svg li {
+  padding: 0.6em;
+}
+#platform {
+  background-color: rgb(165, 252, 230);
+  padding: 5px 30px;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat;
+  background-position: left -290%;
+  display: flex;
+}
+#platform h1 {
+  margin-left: 50px;
+  margin-top: 0.5;
+  font-size: 2rem;
+}
+#work {
+  padding: 2em;
+  margin: 5px;
+}
+#world {
+  display: block;
+}
+#divet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.divet4 {
+  background-color: white;
+  padding: 0.4em;
+  margin: 2px;
+  text-align: center;
+  height: 180px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  font-size: 0.7rem;
+  width: 290px;
+  border-radius: 1.5em;
+}
+.divet4 p {
+  display: block;
+}
+.divet4 h3 {
+  font-weight: bold;
+  color: rgb(50, 194, 158);
+  font-family: "work sans";
+}
+.divet4 img {
+  margin: 1em;
+}
+#lives {
+  margin-top: 5em;
+  text-align: center;
+}
+#lives p {
+  font-size: 0.9em;
+  color: rgb(59, 56, 56);
+  height: 150px;
+  margin: 3em 25em;
+}
+#atleti {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2em 8em;
+}
+#atleti div {
+  background-color: rgb(243, 234, 222);
+  margin: 1em;
+}
+
+button {
+  background: rgb(44, 96, 207);
+  color: rgb(235, 222, 222);
+  border: none;
+  border-radius: 0.5em;
+  margin: 0.3em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+#join {
+  text-align: center;
+  margin-top: 5em;
+}
+#join h1 {
+  color: rgb(68, 56, 56);
+  font-family: "poppins";
+}
+#join button {
+  background: rgb(44, 96, 207);
+  color: rgb(235, 222, 222);
+  border: none;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  margin: 7em 10em;
+  font-size: small;
+}
+footer h5 {
+  font-weight: 200;
+  font-size: small;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
